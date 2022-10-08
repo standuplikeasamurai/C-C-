@@ -101,6 +101,6 @@ int main6()
 	int (*(*ppfArr)[4])(int, int) = &pfArr; //ppfArr是一个指向【函数指针数组】的指针
 											//ppfArr是一个数组指针，指针指向的数组有4个元素
 											//指向的数组的每个元素的类型是一个函数指针 int(*)(int,int)
-	qsort(arr);
+	
 	return 0;
 }
